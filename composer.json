@@ -1,0 +1,23 @@
+{
+    "name": "mamy/agnostic-blog-clean-architecture",
+    "description": "A framework-agnostic blog domain implementation using clean architecture principles.",
+    "autoload": {
+        "psr-4": {
+            "App\\Domain\\": "src/Domain/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mamy Christian",
+            "email": "swiitjaden@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^3.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
